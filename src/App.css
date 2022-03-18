@@ -1,0 +1,78 @@
+* {
+  font-family: 'Poppins' !important;
+}
+
+body {
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2em;
+}
+
+.form-container.MuiPaper-root.MuiCard-root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  width: 500px;
+  height: 600px;
+}
+
+.form-actual {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtext {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #5B605E;
+  padding: 0 0 1em 0;
+}
+
+button {
+  background: #489480;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  height: 40px;
+  margin: 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #489480;
+  background: rgb(202, 201, 201);
+  transition-duration: 1s;
+}
+
+.table.MuiPaper-root.MuiCard-root {
+  border-radius: 15px;
+}
+
+/* .email.MuiInputBase-input.MuiOutlinedInput-input {
+  width: 350px;
+} */
+
+.dropdown {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1C1F1E;
+  background: #FFFFFF;
+  border: 1px solid #C5C3C3;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 350px;
+  height: 60px;
+  margin: 1em 0 1em 0;
+}
